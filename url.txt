@@ -1,0 +1,3 @@
+test1.mp4 https://pod.utt.fr/media/videos/9cbc375f3a7ea463ec84c263e0ae967c7144eb97aef79fbe146fc842c2aeefff/2161/playlist.m3u8
+test2.mp4 https://pod.utt.fr/media/videos/9cbc375f3a7ea463ec84c263e0ae967c7144eb97aef79fbe146fc842c2aeefff/2162/playlist.m3u8
+test3.mp4 https://pod.utt.fr/media/videos/9cbc375f3a7ea463ec84c263e0ae967c7144eb97aef79fbe146fc842c2aeefff/2163/playlist.m3u8

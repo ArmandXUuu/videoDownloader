@@ -17,13 +17,37 @@ Si jamais vous souhaitez télécharger une vidéo mais que vous constatez qu'ell
 `go run main.go FILEPATH/FILENAME.mp4 URLCOPIÉ`
 La durée d'exécution dépend de la configuration de l'ordinateur et de l'environnement réseau.
 
+### Mode 1 : normal
+
 Par exemple :
-`go run main.go test.mp4 https://pod.utt.fr/media/videos/a_demo/xxxx/playlist.m3u8`
+``` bash
+go run main.go -n test.mp4 https://pod.utt.fr/media/videos/a_demo/xxxx/playlist.m3u8
+go run main.go --normal test.mp4 https://pod.utt.fr/media/videos/a_demo/xxxx/playlist.m3u8
+```
+
+### Mode 2 : batch
+``` bash
+go run main.go -b
+go run main.go --batch
+```
+
+    
+Et il faut dans `./url.txt` :
+```
+file1.mp4 https://url1
+file2.mp4 https://url2
+...
+```
 
 ## Des fonctionnalités à rajouter :
-- Télécharger en vrac
-- Téléchargement simultané multitâche
-- Simplifier la commande
+-[x] Télécharger en vrac (en utilisant `-b` ou `--batch`) - 25.02.2021
+-[ ] Téléchargement simultané multitâche
+
+        en fait en utilisant le `ffmpeg` ça fait très lentement : une vidéo de 15 mins prendra 4 mins pour télécharger et exporter pour moi
+        -- car ma machine est vieille.
+        -- faut implementer le merger à la main
+        
+-[ ] Simplifier la commande
 
 ***Si vous trouvez que ce programme n'est pas "légal", n'hésitez pas à me contacter.***
 et créez un pullRequest si vous trouverez un problème
