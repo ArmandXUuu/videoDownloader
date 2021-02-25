@@ -42,9 +42,14 @@ file2.mp4 https://url2
 ```
 
 ## Python
-Utilisez jupyter-lab ou command line pytho.
+Utilisez jupyter-lab ou command line python.
 
-![image](https://github.com/ArmandXUuu/videoDownloader/blob/develop/img/pythonOutput.png?raw=true)
+*Il faut créer `/cache` sous le chemin de travail (où se trouve le fichier `videoDownloader.py` ou `videoDownloader.ipynb`.*
+
+Et la vidéo exportée se trouve aussi dans `/cache`.
+
+![image](https://github.com/ArmandXUuu/videoDownloader/blob/main/img/pythonOutput.png?raw=true)
+![image](https://github.com/ArmandXUuu/videoDownloader/blob/main/img/pythonCMD.png?raw=true)
 
 ## Des fonctionnalités à rajouter :
 - [x] Télécharger en vrac (en utilisant `-b` ou `--batch`) - 25.02.2021
