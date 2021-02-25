@@ -41,6 +41,11 @@ file2.mp4 https://url2
 ...
 ```
 
+## Python
+Utilisez jupyter-lab ou command line pytho.
+
+![image](https://github.com/ArmandXUuu/videoDownloader/blob/develop/img/pythonOutput.png?raw=true)
+
 ## Des fonctionnalités à rajouter :
 - [x] Télécharger en vrac (en utilisant `-b` ou `--batch`) - 25.02.2021
 
