@@ -40,14 +40,15 @@ file2.mp4 https://url2
 ```
 
 ## Des fonctionnalités à rajouter :
--[x] Télécharger en vrac (en utilisant `-b` ou `--batch`) - 25.02.2021
--[ ] Téléchargement simultané multitâche
+- [x] Télécharger en vrac (en utilisant `-b` ou `--batch`) - 25.02.2021
+
+- [ ] Téléchargement simultané multitâche
 
         en fait en utilisant le `ffmpeg` ça fait très lentement : une vidéo de 15 mins prendra 4 mins pour télécharger et exporter pour moi
         -- car ma machine est vieille.
         -- faut implementer le merger à la main
         
--[ ] Simplifier la commande
+- [ ] Simplifier la commande
 
 ***Si vous trouvez que ce programme n'est pas "légal", n'hésitez pas à me contacter.***
 et créez un pullRequest si vous trouverez un problème
