@@ -1,2 +1,5 @@
 
 .idea/*
+.DS_Store
+python/.ipynb_checkpoints/*
+*.mp4
